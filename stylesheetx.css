@@ -1,0 +1,138 @@
+body {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(4, 13, 33);
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#headerstuff {
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 10px 25px 10px 25px;
+    box-sizing: border-box;
+    display: flex;
+}
+main {
+    height: calc(100vh - 70px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#idk {
+    background-color: rgb(12, 22, 45);
+    border: 1px solid rgb(32, 38, 55);
+    border-radius: 5px;
+    height: 325px;
+    width: 600px;
+}
+#mainthing {
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+header {
+    width: 100vw;
+    height: 70px;
+    padding: 0px;
+}
+#ugandatext {
+    color: rgb(103, 120, 149);
+    padding-right: 10px;
+}
+#weirdpic {
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#thaitel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+    width: 100%;
+}
+#thaitel h1 {
+    color: rgb(129, 147, 178);
+    font-family: system-ui;
+}
+a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+.infofield {
+    width: 100%;
+    height: calc(calc(100% - 45px) / 1.75);
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 0px;
+    background-color: rgb(32, 38, 55);
+    color: antiquewhite;
+    padding-inline-start: 8px;
+}
+#passworddiv {
+    width: 100%;
+    box-sizing: border-box;
+    height: calc(calc(100% - 45px) / 1.75);
+    display: flex;
+}
+#passwordinput {
+    border-radius: 8px 0px 0px 8px;
+    height: 100%;
+}
+#showpassword {
+    height: 100%;
+    aspect-ratio: 1 / 1;
+    border: 0px;
+    border-radius: 0px 8px 8px 0px;
+    background-color: rgb(32, 38, 55);
+    background-image: url('Seattle.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+}
+.watsdis {
+    font-size: 25px;
+    box-sizing: border-box;
+    display: block;
+    height: auto;
+    padding-bottom: 5px;
+    color: rgb(255, 136, 0);
+}
+#banger {
+    width: 100%;
+    height: 10%;
+    box-sizing: border-box;
+    background-color: rgb(4, 44, 105);
+    border: none;
+    font-family: system-ui;
+    color: rgb(129, 147, 178);
+    font-family: system-ui;
+}
+.infodivs {
+    width: 100%;
+    height: calc(75% / 2);
+    box-sizing: border-box;
+    padding-bottom: 5px;
+}
+#invalidemailwarning {
+    height: auto;
+    display: flex;
+    color: rgba(255, 0, 0, 0.87);
+
+}
+button {
+    cursor: pointer;
+}
+video {
+    height: 25vh;
+    aspect-ratio: 16 / 9;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    display: none;
+}
