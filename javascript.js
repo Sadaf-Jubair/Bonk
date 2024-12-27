@@ -22,6 +22,6 @@ function fanhu() {
         });
         video.style.display = "block";
     } else {
-        document.getElementById("invalidemailwarning").innerText = "Put a proprer Email address";
+        document.getElementById("invalidemailwarning").innerText = "Put a proper Email address";
     }
 }
